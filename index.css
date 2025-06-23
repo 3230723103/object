@@ -19,6 +19,59 @@ body {
   body {
     font-size: 14px;
   }
+  .background-wrap {
+    width: 95vw !important;
+    height: 60vw !important;
+    min-width: 300px !important;
+    min-height: 500px !important;
+  }
+  .score-wrap, .endtime-wrap {
+    width: 30vw !important;
+    height: 10vw !important;
+    font-size: 3vw !important;
+  }
+  .start {
+    width: 70vw !important;
+    height: 12vw !important;
+    font-size: 4vw !important;
+  }
+  .setting-wrap {
+    width: 40px !important;
+    height: 40px !important;
+    top: 10px !important;
+    right: 10px !important;
+  }
+  .countdown {
+    font-size: 30px !important;
+  }
+}
+
+/* 手机横屏样式 */
+@media (max-width: 480px) and (orientation: landscape) {
+  body {
+    font-size: 12px !important;
+  }
+  .background-wrap {
+    width: 98vw !important;
+    height: 70vw !important;
+    min-width: 300px !important;
+    min-height: 400px !important;
+  }
+  .score-wrap, .endtime-wrap {
+    width: 35vw !important;
+    height: 12vw !important;
+    font-size: 4vw !important;
+  }
+  .start {
+    width: 70vw !important;
+    height: 5vw !important;
+    font-size: 5vw !important;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
 }
 @media (max-width: 480px) {
   body {
@@ -295,6 +348,7 @@ body {
     background: linear-gradient(45deg, #7d74ffd8, #6d65e0da, #887fffb4);
     position: absolute;
     bottom: 0;
+    top:50%;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 16px;
@@ -319,8 +373,8 @@ body {
     line-height: 60px;
     text-align: center;
     position: absolute;
-    top: 11%;
-    right: 12%;
+    top: 30%;
+    left: 5%;
     background-color: rgba(0, 0, 0, .7);
     border-radius: 12px;
     box-shadow: 0 0 12px #fff;
@@ -477,7 +531,7 @@ input::-webkit-inner-spin-button{
     border-radius: 50%;
     box-shadow: 0 0 12px #fff;
     position: absolute;
-    top: 28%;
+    top: 40%;
     left: 8%;
     cursor: pointer;
 }
