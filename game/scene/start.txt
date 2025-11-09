@@ -1,0 +1,37 @@
+; 初始场景，以及特效演示
+bgm:雪どけ.mp3 -vocal= 丁达尔的梦.mp3;
+unlockBgm:s_Title.mp3 -vocal= 丁达尔的梦.mp3 -name=雲を追いかけて;
+intro:啊！好累|这部分终于做完了|甲方要求真是麻烦。。。 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=revealAnimation -delayTime=1500;
+changeBg:黑夜工位.png -next;
+unlockCg:黑夜工位.png -name=良夜;
+changeFigure:none -next -transform={"position":{"y":200}};
+setAnimation:blur -next -target=fig-left;
+:（项目的代码在屏幕上显示着）|（办公室里只有眼前的屏幕还亮着）;
+; 模版修改演示
+:唉，加班又加到好晚，好累啊，下班回家吧。 -fontSize=large;
+choose:关闭电脑:选择场景文件;
+;第一节下班回家
+intro:灯火通明的城市仿佛与我无关|公交车不知走了多久|到站了呢 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:夜间街道.jpg -next -ease=linear;
+:（冬天的夜晚格外漫长啊）;
+changeBg:家门.png;
+:已经到家了，但她应该已经睡了吧 ;
+choose:用钥匙开门:选择场景文件|敲门:敲门.txt;
+playEffect:音效/开门声.mp3;
+;
+setTextbox:on;
+changeBg:客厅图片.png;
+changeFigure:高兴2.png;
+麦冬:啊，你终于回来了 -啊，你终于回来了.wav;
+changeFigure:单手叉腰.png;
+麦冬:虽然消息上说要加班，但还是有些担心 -虽然消息上说要加班，但还是有些担心wav.wav;
+:抱歉，今晚加班比较晚;
+麦冬:好了，去洗漱一下吧，我去给你准备一下衣服 -好了，去洗漱一下吧，我去给你准备一下衣服.wav;
+changeFigure:none;
+:麦冬转身离开了|我也去清洗一下吧;
+intro:热水澡，洗去一天的疲劳|与屋外的寒冬形成强烈的对比，此刻仿佛要融化了一样|结束沐浴，突然发现......浴巾居然在阳台！ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:浴室.png;
+bgm:日常系1.mp3;
+:咋办啊;
+choose:直接轻声出去:轻声出去.txt|呼唤麦冬帮忙取一下浴巾:麦冬帮忙.txt;
+;

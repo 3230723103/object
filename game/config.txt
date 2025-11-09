@@ -1,0 +1,7 @@
+Game_name:夜归小记;
+Game_key:7237d2e2659d16c;
+Title_img:1762408998129.png;
+Title_bgm:雪どけ.mp3;
+Textbox_theme:imss;
+Description:;
+Game_Logo:;

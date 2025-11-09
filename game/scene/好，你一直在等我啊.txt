@@ -1,0 +1,14 @@
+;
+changeFigure:单手叉腰.png;
+changeBg:客厅图片.png;
+麦冬:因为你一直没回来，我也睡不着 -因为你一直没回来，我也睡不着.wav;
+麦冬:好了，赶紧去吧，我去给你准备一下衣服 -好了，赶紧去吧，我去给你准备一下衣服.wav;
+changeFigure:none;
+:麦冬，转身去取衣服了;
+:好了，我也去洗漱一下吧;
+choose:（去浴室）:选择场景文件;
+intro:热水澡，洗去一天的疲劳|与屋外的寒冬形成强烈的对比，此刻仿佛要融化了一样|结束沐浴，突然发现......浴巾居然在阳台！ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+bgm:日常系1.mp3;
+:咋办啊;
+choose:直接轻声出去:轻声出去.txt|呼唤麦冬帮忙取一下浴巾:麦冬帮忙.txt;
+;
